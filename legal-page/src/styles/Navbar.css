@@ -8,6 +8,8 @@
 .img-content {
   height: 60px;
   margin-left: 20vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .contact-content {
@@ -19,7 +21,7 @@
   font-size: 0.8em;
   font-family: 'Barlow', Helvetica, Arial, Lucida, sans-serif;
   letter-spacing: 1px;
-  margin-right: 20vh;
+  margin-right: 10vh;
   gap: 10px;
 }
 

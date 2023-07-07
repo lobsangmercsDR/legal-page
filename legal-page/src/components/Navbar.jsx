@@ -1,6 +1,7 @@
 import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
 import PhoneInTalkOutlinedIcon from '@mui/icons-material/PhoneInTalkOutlined';
 import QuestionAnswerOutlinedIcon from '@mui/icons-material/QuestionAnswerOutlined';
+import colorido from '../assets/original.png';
 import '../styles/Navbar.css';
 
 function Navbar() {
@@ -9,7 +10,7 @@ function Navbar() {
     <div className="main-content">
       <img
         className='img-content'
-        src="https://josecajazeiro.adv.br/wp-content/uploads/2022/04/Simbolo-Transparente-150x150-1.png"
+        src={colorido}
         alt="logo"
       />
       <div className='contact-content'>
