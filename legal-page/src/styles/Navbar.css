@@ -23,6 +23,16 @@
   gap: 10px;
 }
 
+.contact-content span {
+  cursor: pointer;
+}
+
+.contact-content a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 .values-contact {
   padding-top: 10vh;
 }
