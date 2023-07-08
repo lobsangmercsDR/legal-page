@@ -1,0 +1,40 @@
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0A0A0A;
+  width: 100%;
+}
+
+.img-content {
+  height: 60px;
+  margin-left: 20vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+  font-family: 'Barlow', Helvetica, Arial, Lucida, sans-serif;
+  letter-spacing: 1px;
+  margin-right: 10vh;
+  gap: 10px;
+}
+
+.contact-content span {
+  cursor: pointer;
+}
+
+.contact-content a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.values-contact {
+  padding-top: 10vh;
+}
