@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Playfair+Display&display=swap');
+
+.introduction-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #2B373F;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/law.jpg');
+  background-size: cover;
+  height: 92.4vh;
+}
+
+.introduction-titles {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Prata', serif;
+  font-size: 4.8rem;
+  font-weight: normal; 
+  /* margin-right: 1vh; */
+  margin-top: 15vh;
+  margin-left: 58vh;
+  margin-right: 10vh;
+}
+
+.introduction-exp {
+  margin-left: 29vh;
+  margin-top: -5vh;
+}
+
+.introduction-span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin-left: 46vh;
+  margin-top: -4vh;
+}
+
+button {
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #FFBA60;
+  border: none;
+  color: #332513;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding: 16px;
+  width: 190px;
+  height: 55px;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 5px;
+  margin-right: 10vh;
+  margin-top: 5vh;
+ }
+ 
+ button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+ }
+ 
+ button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+ }
+ 
+ button:hover span {
+  padding-right: 15px;
+ }
+ 
+ button:hover span:after {
+  opacity: 1;
+  right: 0;
+ }
