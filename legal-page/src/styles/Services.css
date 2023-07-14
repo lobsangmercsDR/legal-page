@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Playfair+Display&display=swap');
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+  height: 100vh;
+}
+
+.services-title {
+  margin-top: 1.5em;
+  font-family: 'Prata', serif;
+  font-size: 48px;
+  color: #333333;
+}
+
+.service-tag {
+  width: 89px;
+  height: 3px;
+  flex-shrink: 0;
+  background: #FFBA60;
+  margin-bottom: 2.5em;
+}
+
+.services-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 395px;
+  height: 230px;
+  gap: 3.5em;
+  margin-bottom: 3em;
+}
+
+.services-p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  margin: 15px;
+}
+
+.services-span {
+  font-family: 'Open Sans', sans-serif;
+  color: #666666;
+  font-size: 16px;
+  margin: 15px;
+  display: grid;
+  line-height: 1.9;
+}
+
+.services-button {
+  margin-top: 9em;
+  margin-left: 5em;
+}

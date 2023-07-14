@@ -1,5 +1,6 @@
 import Introduction from "../components/Introduction";
 import Navbar from "../components/Navbar";
+import Services from "../components/Services";
 
 function MainPage () {
 
@@ -7,6 +8,7 @@ function MainPage () {
     <div>
       <Navbar />
       <Introduction />
+      <Services />
     </div>
   )
 }
