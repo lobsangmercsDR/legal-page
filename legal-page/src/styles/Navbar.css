@@ -1,8 +1,12 @@
 .main-content {
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between;
   background-color: #0A0A0A;
   width: 100%;
+  z-index: 999;
+  transition: 0.5s;
 }
 
 .img-content {
@@ -10,6 +14,7 @@
   margin-left: 20vh;
   margin-top: 10px;
   margin-bottom: 10px;
+  transition: 0.5s;
 }
 
 .contact-content {
@@ -23,6 +28,7 @@
   letter-spacing: 1px;
   margin-right: 25vh;
   gap: 20px;
+  transition: 0.5s;
 }
 
 .contact-content span {
@@ -32,9 +38,35 @@
 .contact-content a {
   text-decoration: none;
   color: inherit;
+  transition: 0.5s;
 }
 
-
 .values-contact {
-  padding-top: 10vh;
+  padding-top: 70px; 
+  transition: 0.5s;
+}
+
+.scroll {
+  height: 50px;
+  transition: 1.0s;
+}
+
+.scroll .contact-content {
+  transition: 1.0s;
+}
+
+.scroll .contact-content span {
+  transition: 1.0s;
+}
+
+.scroll .contact-content a {
+  transition: 1.0s;
+}
+
+.scroll .img-content {
+  height: 30px;
+  margin-left: 20vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: 0.3s;
 }

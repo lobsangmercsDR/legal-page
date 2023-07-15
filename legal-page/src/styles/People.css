@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Playfair+Display&display=swap');
+
+.people-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.people-img-content {
+  display: flex;
+  gap: 8.5em;
+}
+
+.people-img {
+  width: 320px;
+  height: 500px;
+}
+
+.people-p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+
+.people-span {
+  font-family: 'Open Sans', sans-serif;
+  color: #999999;
+  font-size: 14px;
+  display: grid;
+  line-height: 1.9;
+}
+
+.areas-span {
+  color: #666666;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  display: grid;
+  max-width: 50%;
+}

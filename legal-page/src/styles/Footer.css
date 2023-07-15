@@ -1,0 +1,32 @@
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #2B373F;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/hand5.jpg') ;
+  background-size: cover;
+  height: 100vh;
+}
+
+.footer-title {
+  margin-top: 5.5em;
+  margin-left: 3.1em;
+  font-family: 'Prata', serif;
+  font-size: 48px;
+  color: white;
+  transition: margin 0.5s ease-in-out;
+}
+
+.footer-span {
+  margin-top: 1em;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 9.1em;
+}
+
+.footer-btns {
+  display: flex;
+  margin-left: 8.1em;
+  margin-top: 5.1em;
+  gap: -15em;
+}
