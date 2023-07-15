@@ -1,13 +1,31 @@
 import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
 import PhoneInTalkOutlinedIcon from '@mui/icons-material/PhoneInTalkOutlined';
 import QuestionAnswerOutlinedIcon from '@mui/icons-material/QuestionAnswerOutlined';
+import { useEffect, useState } from 'react';
 import colorido from '../assets/original.png';
 import '../styles/Navbar.css';
 
 function Navbar() {
+  const [scroll, setScroll] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 0) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <div className="main-content">
+    <div className={`main-content ${scroll ? 'scroll' : ''}`}>
       <img
         className='img-content'
         src={colorido}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Playfair+Display&display=swap');
+
+.areas-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+  height: 100vh;
+  background-color: #F7F7F7;
+}
+
+.areas-title {
+  margin-top: 1.5em;
+  font-family: 'Prata', serif;
+  font-size: 48px;
+  color: #333333;
+  transition: margin 0.5s ease-in-out;
+}
+
+.area-um {
+  width: 584px;
+  height: 25px;
+  flex-shrink: 0;
+  background: #FFBA60;
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.areas-span {
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  transition: font-size 0.5s ease-in-out, color 0.5s ease-in-out;
+}
