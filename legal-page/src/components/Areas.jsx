@@ -7,11 +7,11 @@ function Areas() {
 
   return (
     <div className='areas-content '>
-      <p className='areas-title '>
+      <p className='areas-title animate__animated animate__fadeIn'>
         Áreas de Atuação
       </p>
-      <div className='service-tag ' />
-      <span className='services-span '>
+      <div className='service-tag areas-title animate__animated animate__fadeIn' />
+      <span className='services-span areas-title animate__animated animate__fadeIn'>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       </span>
       <span className='areas-span '>Processos Trabalhistas</span>
