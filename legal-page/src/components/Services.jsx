@@ -8,33 +8,33 @@ function Services() {
 
   return (
     <div className='services-content'>
-      <p className='services-title'>Nossos Serviços Prestados</p>
+      <p className='services-title animate__animated animate__fadeInLeft'>Nossos Serviços Prestados</p>
       <div className='service-tag' />
       <div className='services-image'>
         <div>
           <img className='services-image' src={aperto} alt="aaa" />
-          <p className='services-p'>
+          <p className='services-p animate__animated animate__fadeInUp'>
             Acordos Trabalhistas
           </p>
-          <span className='services-span'>
+          <span className='services-span animate__animated animate__fadeInUp'>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           </span>
         </div>
         <div>
           <img className='services-image' src={terno} alt="aaa" />
-          <p className='services-p'>
+          <p className='services-p animate__animated animate__fadeInUp'>
             Acordos Trabalhistas
           </p>
-          <span className='services-span'>
+          <span className='services-span animate__animated animate__fadeInUp'>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           </span>
         </div>
         <div>
           <img className='services-image' src={aperto2} alt="aaa" />
-          <p className='services-p'>
+          <p className='services-p animate__animated animate__fadeInUp'>
             Acordos Trabalhistas
           </p>
-          <span className='services-span'>
+          <span className='services-span animate__animated animate__fadeInUp'>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           </span>
         </div>
