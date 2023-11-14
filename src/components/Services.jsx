@@ -17,25 +17,25 @@ function Services() {
             Acordos Trabalhistas
           </p>
           <span className='services-span animate__animated animate__fadeInUp'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Arcos laborais são alicerces fictícios da harmonia entre empregador e colaborador na complexa tapeçaria do mundo profissional.
           </span>
         </div>
         <div>
           <img className='services-image' src={terno} alt="aaa" />
           <p className='services-p animate__animated animate__fadeInUp'>
-            Acordos Trabalhistas
+            Diligências Processuais
           </p>
           <span className='services-span animate__animated animate__fadeInUp'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Diligências processuais são as engrenagens invisíveis que impulsionam a máquina da justiça, guiando cada passo no intricado caminho do sistema legal. 
           </span>
         </div>
         <div>
           <img className='services-image' src={aperto2} alt="aaa" />
           <p className='services-p animate__animated animate__fadeInUp'>
-            Acordos Trabalhistas
+            Consultoria Especializada
           </p>
           <span className='services-span animate__animated animate__fadeInUp'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Consultoria especializada é a bússola confiável que orienta empresas, traduzindo complexidades em estratégias sólidas na vastidão do mundo corporativo. 
           </span>
         </div>
         

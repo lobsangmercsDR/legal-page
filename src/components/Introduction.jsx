@@ -7,7 +7,7 @@ function Introduction() {
       <div className='introduction-titles'>
         <p>Advocacia Trabalhista</p>
         <p className='introduction-exp'>Especializada</p>
-        <p className='introduction-span'>Em Defesa do Direito Laboral.</p>
+        <p className='introduction-span'>Em Defesa do Direito Cível e Laboral.</p>
       </div>
       
       <div>
