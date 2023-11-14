@@ -6,12 +6,13 @@
   justify-content: center;
   align-items: center;
   gap: 2.5em;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #F7F7F7;
+  padding: 4vw 0;
 }
 
 .areas-title {
-  margin-top: 1.5em;
+  /* margin-top: 6em; */
   font-family: 'Prata', serif;
   font-size: 48px;
   color: #333333;

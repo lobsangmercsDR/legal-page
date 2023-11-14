@@ -4,11 +4,12 @@ import Introduction from "../components/Introduction";
 import Navbar from "../components/Navbar";
 import People from "../components/People";
 import Services from "../components/Services";
+import '../styles/MainPage.css';
 
 function MainPage () {
 
   return(
-    <div>
+    <div className="mainpage">
       <Navbar />
       <Introduction />
       <Services />

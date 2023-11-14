@@ -16,17 +16,17 @@
   flex-direction: column;
   color: white;
   font-family: 'Prata', serif;
-  font-size: 4.8rem;
+  font-size: 4rem;
   font-weight: normal; 
   /* margin-right: 1vh; */
-  margin-top: 15vh;
+  margin-top: 30vh;
   margin-left: 58vh;
   margin-right: 10vh;
 }
 
 .introduction-exp {
-  margin-left: 29vh;
-  margin-top: -5vh;
+  margin-left: 38vh;
+  margin-top: 4vh;
 }
 
 .introduction-span {
@@ -34,8 +34,8 @@
   font-size: 1.1rem;
   letter-spacing: 3px;
   font-weight: bold;
-  margin-left: 46vh;
-  margin-top: -4vh;
+  margin-left: 52vh;
+  margin-top: 4vh;
 }
 
 button {
