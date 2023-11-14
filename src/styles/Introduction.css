@@ -33,6 +33,7 @@
 .introduction-span {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1rem;
+  width: max-content;
   letter-spacing: 3px;
   font-weight: bold;
   margin-left: 52vh;
