@@ -1,54 +1,106 @@
-import aperto2 from '../assets/aperto2.jpg';
+import { useState } from 'react';
 import aperto from '../assets/law-firm-06.jpg';
+import aperto2 from '../assets/aperto2.jpg';
 import terno from '../assets/terno.jpg';
-
 import '../styles/Services.css';
 
-function Services() {
+const tabs = [
+  {
+    title: 'Consultoría Corporativa',
+    services: [
+      {
+        title: 'Constitución de Compañía',
+        image: aperto,
+        description: 'Asesoría integral para la creación legal y estratégica de tu empresa, cumpliendo normativas locales e internacionales.',
+      },
+      {
+        title: 'Contratos',
+        image: terno,
+        description: 'Redacción y revisión de contratos personalizados, protegiendo tus intereses en acuerdos laborales, comerciales o civiles.',
+      },
+      {
+        title: 'Firma Electrónica',
+        image: aperto2,
+        description: 'Implementación y validación legal de firma electrónica para facilitar trámites digitales con seguridad jurídica.',
+      },
+    ],
+  },
+  {
+    title: 'Derecho Administrativo',
+    services: [
+      {
+        title: 'Derecho Administrativo',
+        image: aperto,
+        description: 'Representación y asesoría frente a organismos públicos, licitaciones, permisos y procesos administrativos.',
+      },
+      {
+        title: 'Justiprecio',
+        image: terno,
+        description: 'Defensa técnica en procedimientos de expropiación, cálculo de indemnizaciones y valoraciones legales.',
+      },
+    ],
+  },
+  {
+    title: 'Asistencia Legal General',
+    services: [
+      {
+        title: 'Consultoría Especializada',
+        image: aperto2,
+        description: 'Orientación personalizada para personas o empresas ante conflictos legales de diversa índole.',
+      },
+      {
+        title: 'Diligencias Procesales',
+        image: terno,
+        description: 'Gestión de trámites judiciales y administrativos ante juzgados, fiscalías y otras entidades.',
+      },
+    ],
+  },
+];
+
+export default function Services() {
+  const [activeTab, setActiveTab] = useState(0);
 
   return (
     <div className='services-content'>
-      <p className='services-title animate__animated animate__fadeInLeft'>Nossos Serviços Prestados</p>
+      <p className='services-title animate__animated animate__fadeInLeft'>Nuestros Servicios Legales</p>
       <div className='service-tag' />
-      <div className='services-image'>
-        <div>
-          <img className='services-image' src={aperto} alt="aaa" />
-          <p className='services-p animate__animated animate__fadeInUp'>
-            Acordos Trabalhistas
-          </p>
-          <span className='services-span animate__animated animate__fadeInUp'>
-          Arcos laborais são alicerces fictícios da harmonia entre empregador e colaborador na complexa tapeçaria do mundo profissional.
-          </span>
-        </div>
-        <div>
-          <img className='services-image' src={terno} alt="aaa" />
-          <p className='services-p animate__animated animate__fadeInUp'>
-            Diligências Processuais
-          </p>
-          <span className='services-span animate__animated animate__fadeInUp'>
-          Diligências processuais são as engrenagens invisíveis que impulsionam a máquina da justiça, guiando cada passo no intricado caminho do sistema legal. 
-          </span>
-        </div>
-        <div>
-          <img className='services-image' src={aperto2} alt="aaa" />
-          <p className='services-p animate__animated animate__fadeInUp'>
-            Consultoria Especializada
-          </p>
-          <span className='services-span animate__animated animate__fadeInUp'>
-          Consultoria especializada é a bússola confiável que orienta empresas, traduzindo complexidades em estratégias sólidas na vastidão do mundo corporativo. 
-          </span>
-        </div>
-        
+
+      {/* Tabs */}
+      <div className="services-tabs">
+        {tabs.map((tab, idx) => (
+          <button
+            key={idx}
+            onClick={() => setActiveTab(idx)}
+            className={`tab-button ${activeTab === idx ? 'active' : ''}`}
+          >
+            {tab.title}
+          </button>
+        ))}
       </div>
+
+      {/* Services */}
+      <div className='services-image'>
+        {tabs[activeTab].services.map((item, i) => (
+          <div key={i}>
+            <img className='services-image' src={item.image} alt={item.title} />
+            <p className='services-p animate__animated animate__fadeInUp'>{item.title}</p>
+            <span className='services-span animate__animated animate__fadeInUp'>{item.description}</span>
+          </div>
+        ))}
+      </div>
+
+      {/* Call to Action */}
       <div className='services-button'>
-      <a href="https://wa.me//553196438846?text=Tenho%20interesse%20em%20contactar%20um%20advogado%20especialista!" target="_blank" rel="noreferrer">
-        <button>
-          <span>FALE CONOSCO</span>
-        </button>
-      </a>
+        <a
+          href="https://wa.me//553196438846?text=Tengo%20interés%20en%20contactar%20un%20abogado%20especialista!"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>
+            <span>FALE CONOSCO</span>
+          </button>
+        </a>
       </div>
     </div>
-  )
+  );
 }
-
-export default Services;

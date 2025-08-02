@@ -1,44 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display&display=swap');
 
+/* ===== CONTENEDOR PRINCIPAL ===== */
 .areas-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 2.5em;
-  /* height: 100vh; */
+  gap: 2.5rem;
   background-color: #F7F7F7;
-  padding: 4vw 0;
+  padding: 4rem 1.5rem;
 }
 
+/* ===== TÍTULO PRINCIPAL ===== */
 .areas-title {
-  /* margin-top: 6em; */
-  font-family: 'Prata', serif;
-  font-size: 48px;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
   color: #333333;
+  text-align: center;
+  margin-bottom: 0.5rem;
   transition: margin 0.5s ease-in-out;
 }
 
+/* ===== SUBRAYA DORADA ===== */
 .area-um {
-  width: 584px;
-  height: 25px;
-  flex-shrink: 0;
+  width: 90px;
+  height: 3px;
   background: #FFBA60;
-  transition: width 0.5s ease-in-out, height 0.5s ease-in-out, background-color 0.5s ease-in-out;
+  margin-bottom: 1.5rem;
+  transition: all 0.5s ease-in-out;
 }
 
+/* ===== DESCRIPCIÓN GENERAL ===== */
 .aaa-span {
   font-family: 'Open Sans', sans-serif;
-  color: #666666;
-  font-size: 16px;
-  margin: 15px;
-  display: grid;
-  line-height: 1.9;
-  width: 50%;
+  color: #555555;
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: justify;
+  max-width: 800px;
+  padding: 0 1rem;
 }
 
+/* ===== TÍTULO DE CADA ÁREA ===== */
 .areas-span {
-  color: #333333;
   font-family: 'Open Sans', sans-serif;
-  transition: font-size 0.5s ease-in-out, color 0.5s ease-in-out;
+  font-size: 1.2rem;
+  color: #333333;
+  font-weight: 600;
+  margin-top: 2rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* ===== LISTA DE SERVICIOS ===== */
+.areas-list {
+  font-family: 'Open Sans', sans-serif;
+  color: #444444;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+  max-width: 700px;
 }

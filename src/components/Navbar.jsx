@@ -36,16 +36,16 @@ function Navbar() {
           <MailOutlinedIcon fontSize="small" />
           <a href="mailto:contato@henriqueribeiro.adv.br">
           <span>
-            contato@henriqueribeiro.adv.br
+            gabrielmercedes@gmail.com
           </span>
           </a>
         </div>
-        
+
         <div style={{display: 'flex', alignItems: 'center', gap: '4px'}}>
           <PhoneInTalkOutlinedIcon fontSize="small" />
           <a href="tel:31991111501">
           <span>
-            31 99111-1501
+            +1 (809) 407 2934
            </span>
           </a>
         </div>
